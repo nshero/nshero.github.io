@@ -4,14 +4,14 @@ toc: false
 ---
 
 **Research**
-- Archives (Foucault, Sekula, Foster)
+- Archives
   - Archive as a narrative tool and a form of surveillance; the concept of curation as control.
   - Archive as an art form or framing device; examples of fictional archives or creative cataloging
   - Practical archiving concepts and skills – software, cataloging, and preservation techniques
-- Context (McLuhan, Nelson, Federman, Lialina, Boelstorff)
-  - Web 1.0, theories of World Wide Web connectivity, data/knowledge-sharing concepts (The Medium is the Message)
+- Context
+  - Web 1.0, theories of World Wide Web connectivity, data/knowledge-sharing concepts (_The Medium is the Message_)
   - Online communities, particularly relating to moderation, cohesiveness as a function of size, and personal identity formation.
-- Memory (Yassa/Reagh, Sedikides, Wildschut, and Baden)
+- Memory
   - Memory erosion, data loss, and the act of memory accession as an act of subconscious revision, alteration, and loss
   - The act of archiving as a failure or a refusal to progress or let go, for better or worse
   - Functional uses of nostalgia, namely the ideas of mortality salience and terror management theory.
