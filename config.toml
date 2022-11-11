@@ -1,0 +1,18 @@
+baseURL = 'http://thisisbad.art/'
+languageCode = 'en-us'
+title = 'this is bad art'
+theme = "hugo-theme-monochrome"
+enable_toc = false
+enable_site_search = true
+footer = "Theme by kaiiiz"
+
+[[menu.navbar]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 1
+[[menu.navbar]]
+  identifier = "projects"
+  name = "projects"
+  url = "/projects/"
+  weight = 2
