@@ -1,0 +1,58 @@
+:root {
+  --back-color: #F4ccce;
+  --primary-color: #7a0026;
+  --header-back: #F4ccce;
+  --header-text: #7a0026;
+}
+
+body {
+  background-color: var(--back-color);
+  color: var(--primary-color);
+}
+
+header {
+  background-color: var(--header-back);
+  color: var(--header-text);
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header"
+    "content content sidebar"
+    "footer footer footer";
+}
+
+header { grid-area: header; }
+
+main { grid-area: content;
+  margin: 1%;
+  padding: 1%;
+border: 1px solid var(--primary-color);
+}
+
+aside {
+grid-area: sidebar;
+margin: 2%;
+padding: 2%;
+border: 1px solid var(--primary-color);
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+ }
+
+h1 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 18px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18px;
+}
+
+h3 {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 18px; }
+article,main,p,aside { font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: .8rem; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
+blockquote { font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
+pre { font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 9px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }

@@ -1,0 +1,23 @@
+<header>
+	<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+	<div class="theme-switches">
+
+	    <div data-theme="magazine" class="switch" id="switch-1"></div>
+
+	    <div data-theme="intermission" class="switch" id="switch-2"></div>
+
+	    <div data-theme="scarletbeg" class="switch" id="switch-3"></div>
+
+	    <!--div data-theme="blank" class="switch" id="switch-4"><!--/div-->
+
+	</div>
+	{{ with .Site.Menus.main }}
+	<nav>
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</nav>
+	{{ end }}
+</header>
