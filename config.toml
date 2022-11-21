@@ -6,6 +6,7 @@ enable_toc = false
 enable_site_search = true
 footer = "Theme by kaiiiz"
 
+
 [[menu.navbar]]
   identifier = "about"
   name = "about"

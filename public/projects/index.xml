@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>this is bad art</title>
+    <link>https://nshero.github.io/projects/</link>
+    <description>Recent content on this is bad art</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nshero.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overview</title>
+      <link>https://nshero.github.io/projects/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nshero.github.io/projects/overview/</guid>
+      <description>Research
+Archives Archive as a narrative tool and a form of surveillance; the concept of curation as control. Archive as an art form or framing device; examples of fictional archives or creative cataloging Practical archiving concepts and skills – software, cataloging, and preservation techniques Context Web 1.0, theories of World Wide Web connectivity, data/knowledge-sharing concepts (The Medium is the Message) Online communities, particularly relating to moderation, cohesiveness as a function of size, and personal identity formation.</description>
+    </item>
+    
+  </channel>
+</rss>
