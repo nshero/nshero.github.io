@@ -17,9 +17,10 @@ sketches/experiments:
     * melanie hoff folder poetry
     * whatsherface's walks
     * folders as place paper
-  * a
-  * b
-  * c
+  * iterations
+    * a
+    * b
+    * c
 * side view
 * map zoom
 * ether/portals
