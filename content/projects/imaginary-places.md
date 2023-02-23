@@ -14,7 +14,7 @@ sketches/experiments:
 * folder room
   * inspiration/resources
     * ravel.neocities.org
-    * melanie hoff folder poetry
+    * [Folder Poetry Club by Melanie Hoff]()
     * whatsherface's walks
     * folders as place paper
   * iterations
