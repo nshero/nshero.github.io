@@ -13,9 +13,9 @@ sketches/experiments:
 * photo mash
 * folder room
   * inspiration/resources
-    * ravel.neocities.org
+    * ravel.neocities.org by Everest Pipkin
     * [Folder Poetry Club by Melanie Hoff]()
-    * whatsherface's walks
+    * [How do you take a walk with someone on the internet](https://internetwalks.com) by [g. chiarion](https://giorgiachiarion.com/) and [her incredible reference are.na](https://www.are.na/g-svauq15ztgu/how-do-you-take-a-walk-with-someone-on-the-internet)
     * folders as place paper
   * iterations
     * a
