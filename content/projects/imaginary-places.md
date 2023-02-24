@@ -11,6 +11,9 @@ _Imaginary Places_ - A web-based experiment in place, safety, memory, and fantas
 sketches/experiments:
 
 * photo mash
+  * inspiration/resources
+    * hugin
+    * 
 * folder room
   * inspiration/resources
     * [ravel](https://ravel.neocities.org/) by [Everest Pipkin](https://everest-pipkin.com/)
