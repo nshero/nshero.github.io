@@ -16,4 +16,5 @@ fields:
   label: toc
 pages:
 - content/posts/003.md
+- content/posts/004.md
 - content/projects/imaginary-places.md
