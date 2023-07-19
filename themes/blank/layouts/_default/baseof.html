@@ -7,13 +7,14 @@
 	<title>{{ .Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-	<link rel="stylesheet" id="switcher-id" href="">
+<!--	<link rel="stylesheet" id="switcher-id" href="">-->
 	<link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet"  href="https://unpkg.com/98.css">
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
 </head>
-<body>
+<body class="page intermission">
 	<div class="container">
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}

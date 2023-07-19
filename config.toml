@@ -1,18 +1,18 @@
 baseURL = 'https://nshero.github.io'
 languageCode = 'en-us'
 title = 'this is bad art'
-theme = "hugo-theme-monochrome"
+theme = "blank"
 enable_toc = false
 enable_site_search = true
 footer = "Theme by kaiiiz"
 
 
-[[menu.navbar]]
+[[menu.main]]
   identifier = "about"
   name = "about"
   url = "/about/"
   weight = 1
-[[menu.navbar]]
+[[menu.main]]
   identifier = "projects"
   name = "projects"
   url = "/projects/"

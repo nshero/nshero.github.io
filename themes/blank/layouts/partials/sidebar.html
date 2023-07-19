@@ -1,14 +1,66 @@
 <aside>
+    {{ with .Site.Menus.main }}
+	<nav id="main">
+		<ul>
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+		</ul>
+	</nav>
+	{{ end }}
 	<div>
-		<div>
-			<h3>LATEST POSTS</h3>
-		</div>
-		<div>
+			<h3>currently</h3>
 			<ul>
-				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+				{{ range first 1 (where .Site.RegularPages "Type" "currently") }}
+				<li>Last Status Update: <time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "02.01.2006 15:04" }}</time></li>
+				{{ if .Params.Listening }}
+				<li>Listening: {{ .Params.Listening }}</li>
+				{{ end }}
+				{{ if .Params.Thinking }}
+				<li>Thinking: {{ .Params.Thinking }}</li>
+				{{ end }}
+				{{ if .Params.Reading }}
+				<li>Reading: {{ .Params.Reading }}</li>
+				{{ end }}
+				{{ if .Params.Seeking }}
+				<li>Seeking: {{ .Params.Seeking }}</li>
+				{{ end }}
 				{{ end }}
 			</ul>
-		</div>
+    </div>
+    <div>
+    <h3>change theme</h3>
+    <div class="theme-switches">
+	    <div data-theme="magazine" class="switch" id="switch-1"></div>
+	    <div data-theme="intermission" class="switch" id="switch-2"></div>
+	    <div data-theme="scarletbeg" class="switch" id="switch-3"></div>
 	</div>
+    </div>
+    <div>
+     <details>
+         <summary>View Info</summary>
+        <div class="window">
+            <div class="title-bar">
+                        <div class="title-bar-text">
+          Buddy Info: badart
+        </div>
+
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+        </div>
+         <div id="aim-window" class="window-body">
+             <p>Enter the screen name of the user you wish to get info about:</p>
+             <select><option>badart</option></select>
+             <button>OK</button>
+             <button>Close</button>
+             <br />
+             <hr />
+             <p><strong>Away message / Personal Profile:</strong></p>
+             <pre>INFO HERE</pre>
+            </div>
+         </div>
+</details> </div>
 </aside>
